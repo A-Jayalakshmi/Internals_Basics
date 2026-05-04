@@ -1,0 +1,18 @@
+{
+    "experiment_name": "streamcast-watch-time-min",
+    "models": [
+        {
+            "name": "LinearRegression",
+            "mae": 10.6917,
+            "rmse": 11.1207
+        },
+        {
+            "name": "Ridge",
+            "mae": 12.1177,
+            "rmse": 12.5076
+        }
+    ],
+    "best_model": "LinearRegression",
+    "best_metric_name": "rmse",
+    "best_metric_value": 11.1207
+}

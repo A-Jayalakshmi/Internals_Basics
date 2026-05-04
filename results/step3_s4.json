@@ -1,0 +1,17 @@
+{
+  "health_endpoint": "/health",
+  "predict_endpoint": "/score",
+  "port": 9000,
+  "health_response": {
+    "status": "running",
+    "model": "best_model",
+    "version": "1.0"
+  },
+  "test_input": {
+    "content_length_min": 63.4,
+    "user_tenure_months": 39,
+    "is_premium": 1,
+    "genre_score": 5
+  },
+  "prediction": 79.1453
+}

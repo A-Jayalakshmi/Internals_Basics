@@ -1,0 +1,23 @@
+{
+    "total_predictions": 51,
+    "mean_prediction": 103.3599,
+    "drift_detected": true,
+    "alerts": [
+        {
+            "feature": "content_length_min",
+            "train_mean": 79.34,
+            "live_mean": 155.38,
+            "shift": 76.04,
+            "threshold": 29.51,
+            "status": "ALERT"
+        },
+        {
+            "feature": "user_tenure_months",
+            "train_mean": 33.32,
+            "live_mean": 49.47,
+            "shift": 16.15,
+            "threshold": 15.12,
+            "status": "ALERT"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "image_name": "streamcast-predictor",
+    "image_tag": "v1",
+    "base_image": "python:3.12-slim",
+    "test_input": {
+        "content_length_min": 63.4,
+        "user_tenure_months": 39,
+        "is_premium": 1,
+        "genre_score": 5
+    },
+    "prediction": 79.1453
+}
